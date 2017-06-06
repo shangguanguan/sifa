@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>首页</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+		<meta content='width=device-width,initial-scale=1, user-scalable=no' name='viewport'>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/js.js" type="text/javascript" charset="utf-8"></script>
+		<!--[if IE]>
+			<script src="js/html5shiv.js" type="text/javascript" charset="utf-8"></script>
+		<![endif]-->
+	</head>
+	<style type="text/css">
+		body{background: #f5f5f5;}
+		.dz-footer{position: static;}
+	</style>
+	<body>
+		<header class="dz-header">
+			<article class="margin-auto">
+				<div class="fl dz-logo">
+					<img src="images/dz-top_03.png"/>
+				</div>
+				<div class="fr dz-dh">
+					<img src="images/dz-top_07.png"/>
+				</div>
+				<div class="clear"></div>
+			</article>
+		</header>
+		<section class="grzc-top">
+			<img src="images/tx_03.png"/><span>个人中心</span>
+		</section>
+		<section class="grzl">
+			<article class="margin-auto">
+				<div class="grzx-title">
+					修改个人资料
+					<a class="fr" href="javascript:;"><img src="images/fh_03.png"/> 返回个人中心</a>
+					<div class="clear"></div>
+				</div>
+			</article>
+		</section>
+		<section class="xgzl">
+			<article class="margin-auto">
+				<div class="fl xgzl-fl">
+					<a href="javascript:;" class="xgzl-fl-active">基本资料</a>
+					<a href="javascript:;">上传头像</a>
+					<a href="javascript:;">修改密码</a>
+				</div>
+				<div class="fr xgzl-fr">
+					<section>
+						<table class="xgzl-table" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td class="xgzl-table-title">用户名：</td>
+								<td class="xhm-xq">w78389ghd</td>
+							</tr>
+							<tr>
+								<td class="xgzl-table-title">真实姓名：</td>
+								<td><input class="xgzl-table-input-style" type="text" name="" id="" value="" placeholder="刘刚" /></td>
+							</tr>
+							<tr>
+								<td class="xgzl-table-title">性别：</td>
+								<td>
+									<input type="radio" name="xb" id="xb" value="" /> 男 
+									<input type="radio" name="xb" id="xb" value="" /> 女
+								</td>
+							</tr>
+							<tr>
+								<td class="xgzl-table-title">所在地区：</td>
+								<td>
+									<!--三级联动-->
+									<link rel="stylesheet" type="text/css" href="js/andcss/select2.css"/>
+									
+									<select class="xgzl-table-select1" id="loc_province" style="width:115px;">
+									</select><select id="loc_city" style="width:115px; margin-left: 15px">
+									</select><select id="loc_town" style="width:115px;margin-left: 15px">
+									</select>
+									
+									<script src="js/andjs/area.js" type="text/javascript" charset="utf-8"></script>
+									<script src="js/andjs/location.js" type="text/javascript" charset="utf-8"></script>
+									<script src="js/andjs/select2.js" type="text/javascript" charset="utf-8"></script>
+									<script src="js/andjs/select2_locale_zh-CN.js" type="text/javascript" charset="utf-8"></script>
+									<!--end-->
+								</td>
+							</tr>
+							<tr>
+								<td class="xgzl-table-title">街道地址：</td>
+								<td><input class="xgzl-table-input-style" type="text" name="" id="" value="" placeholder="输入街道地址" /></td>
+							</tr>
+							<tr>
+								<td class="xgzl-table-title">擅长领域：</td>
+								<td><input class="xgzl-table-input-style" type="text" name="" id="" value="" placeholder="输入擅长领域" /></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<input class="xgzl-table-bcxg" type="button" name="" id="" value="保存修改" />
+								</td>
+							
+							</tr>
+						</table>
+					</section>
+					<section style="display: none;">
+						<div class="xgzl-sctx">
+							<div class="fl xgzl-sctx-fl">
+								<h1>当前照片</h1>
+								<img src="images/dqzp_03.jpg"/>
+							</div>
+							<div class="fr xgzl-sctx-fr">
+								<h1>上传新照片</h1>
+								<p>
+									请注意：您上传的照片需要审核后才能在网站上显示出来！照片为个人近照效果！上传的图片格式要求为jpg，gif的图片，图片大小不超过1M。
+								</p>
+								<input class="sctx-sc" type="file" name="" id="" value="" />
+								<input class="xgzl-table-bcxg" type="button" name="" id="" value="保存修改" />
+							</div>
+							<div class="clear"></div>
+						</div>
+					</section>
+					<section style="display: none;">
+						<table class="xgzl-table" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td class="xgzl-table-title">输入旧密码：</td>
+								<td>
+									<input class="xgzl-table-input-style" type="text" name="" id="" value="" placeholder="输入旧密码" />
+								</td>
+							</tr>
+							<tr>
+								<td class="xgzl-table-title">输入新密码：</td>
+								<td>
+									<input class="xgzl-table-input-style" type="text" name="" id="" value="" placeholder="输入新密码" />
+								</td>
+							</tr>
+							<tr>
+								<td class="xgzl-table-title">确认新密码：</td>
+								<td>
+									<input class="xgzl-table-input-style" type="text" name="" id="" value="" placeholder="再次输入新密码" />
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<input class="xgzl-table-bcxg" type="button" name="" id="" value="保存修改" />
+								</td>
+							</tr>
+						</table>
+					</section>
+				</div>
+				<div class="clear"></div>
+			</article>
+		</section>
+		
+		<footer class="dz-footer">
+			<h1><a href="javascript:;">手机版</a>|<a href="javascript:;">登录管理</a></h1>
+			<p>Copyright © 2012-2015 www.sfjdxxg.com All Rights Reserved.</p>
+			<span>京ICP备12015487号   技术支持：中视蓝图</span>
+		</footer>
+	</body>
+</html>
